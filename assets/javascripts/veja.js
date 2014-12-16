@@ -7,3 +7,7 @@ $('.youtube').click(function(){
 $('.height').css({
     'height': $('.youtube').height() 
 });
+
+$('.caption').css({
+    'width': $('.user').width() 
+});
