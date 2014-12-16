@@ -46,27 +46,26 @@
         / /.navbar-collapse
       / /.container-fluid
     .container-fluid.content
-      .row
-        .col-md-2.hidden-xs.hidden-sm
-          .sprites.produk-1
-        .col-md-8
-          .relative.height
-            %img.youtube{src: "assets/images/vid-thumb.png", "data-video" => "http://www.youtube.com/embed/2y8APzvLFH4?autoplay=1"}
-          .row.campaign
-            .col-md-6.text-center
-              %a.btn.btn-default{href: "#"}
-                Testimoni 
-                %br
-                Campaign
-              %p Masukkan kode unik hasil pembelian Veja dan kumpulkan poin sebanyak-banyaknya untuk memenangkan hadiah mingguan menarik!
-            .col-md-6.text-center
-              %a.btn.btn-default{href: "#"}
-                Racing Point 
-                %br
-                Alfamart
-              %p Masukkan kode unik hasil pembelian Veja dan kumpulkan poin sebanyak-banyaknya untuk memenangkan hadiah mingguan menarik!
-        .col-md-2.hidden-xs.hidden-sm
-          .sprites.produk-2
+      .row.text-center
+        .col-md-8.col-md-offset-2.white
+          .row.title
+            .col-sm-6
+              %h1 Cara Ikutan
+            .col-sm-6
+              %h4 Testimonial Campaign
+              %h5 "Apa Jadinya Indonesia Tanpa Asisten Rumah Tangga?"
+          .row
+            .col-sm-6
+              .sprites.upload
+              %h3 Upload Foto Anda via Website
+              %p Cras ut mi consectetur, interdum sapien at, fringilla mauris. Aenean facilisis tellus quis condimentum ultricies. 
+            .col-sm-6
+              .sprites.caption
+              %h3 Tulis Caption Anda
+              %p Cras ut mi consectetur, interdum sapien at, fringilla mauris. Aenean facilisis tellus quis condimentum ultricies. 
+          .row
+            .col-sm-12
+              %a.btn.btn-danger{href:"#"} Upload
     .footer
       .container
         .row

@@ -2746,19 +2746,19 @@ select[multiple].input-lg,
 
 .btn-danger {
   color: #fff;
-  background-color: #d9534f;
-  border-color: #d43f3a; }
+  background-color: #e51c20;
+  border-color: #d0181b; }
   .btn-danger:hover, .btn-danger:focus, .btn-danger.focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
     color: #fff;
-    background-color: #c9302c;
-    border-color: #ac2925; }
+    background-color: #b91518;
+    border-color: #991214; }
   .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
     background-image: none; }
   .btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled.focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled].focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger.focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
-    background-color: #d9534f;
-    border-color: #d43f3a; }
+    background-color: #e51c20;
+    border-color: #d0181b; }
   .btn-danger .badge {
-    color: #d9534f;
+    color: #e51c20;
     background-color: #fff; }
 
 .btn-link {
@@ -5407,6 +5407,16 @@ button.close {
     background-position: -301px -265px;
     width: 34px;
     height: 34px; }
+  .sprites.upload {
+    background-position: -11px -424px;
+    width: 184px;
+    height: 204px;
+    margin: 0 auto; }
+  .sprites.caption {
+    background-position: -204px -424px;
+    width: 184px;
+    height: 204px;
+    margin: 0 auto; }
 
 @media (min-width: 1200px) {
   .sprites.produk-1 {
@@ -5419,6 +5429,30 @@ body {
 
 img {
   width: 100%; }
+
+h1 {
+  font-family: "Roboto";
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #ff3b5e; }
+
+h3 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #33c5ff; }
+
+h4 {
+  text-transform: uppercase;
+  color: #ee696b;
+  margin-bottom: 0px;
+  padding-top: 15px; }
+
+h5 {
+  font-weight: bold;
+  color: #2f5e8d;
+  margin-top: 2px; }
 
 .relative {
   position: relative;
@@ -5441,6 +5475,11 @@ img {
   font-size: 18px;
   padding: 6px 40px; }
 
+.btn-danger {
+  margin: 40px 0;
+  text-transform: uppercase;
+  padding: 10px 45px; }
+
 .campaign .btn, .campaign p {
   margin-top: 25px; }
 
@@ -5456,6 +5495,13 @@ img {
     color: #fff;
     font-size: 12px;
     margin-top: 15px; }
+
+.white {
+  background: #fff;
+  margin-bottom: 40px; }
+
+.title {
+  margin-bottom: 40px; }
 
 @media (min-width: 992px) {
   .navbar-header {
