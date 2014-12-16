@@ -1,0 +1,85 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %title Veja
+    %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:700,300", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "styles.css", :rel => "stylesheet"}
+    / HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    / WARNING: Respond.js doesn't work if you view the page via file://
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  %body
+    %nav.navbar.navbar-default{:role => "navigation"}
+      .container-fluid
+        / Brand and toggle get grouped for better mobile display
+        .navbar-header
+          %button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a{:href => "#"} 
+            .sprites.brand
+        / Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          %ul.nav.navbar-nav
+            %li.active
+              %a{:href => "#"} Hadiah
+            %li
+              %a{:href => "#"} Leaderboard
+            %li
+              %a{:href => "#"} Gallery Supermama
+            %li
+              %a{:href => "#"} Veja
+          %ul.nav.navbar-nav.navbar-right.hidden-xs.hidden-sm
+            %li
+              %a{:href => "#"}
+                .sprites.veja
+            %li
+              %a{:href => "#"} 
+                .sprites.alfamart
+        / /.navbar-collapse
+      / /.container-fluid
+    .container-fluid.content
+      .row
+        .col-md-2.hidden-xs.hidden-sm
+          .sprites.produk-1
+        .col-md-8
+          .relative.height
+            %img.youtube{src: "assets/images/vid-thumb.png", "data-video" => "http://www.youtube.com/embed/2y8APzvLFH4?autoplay=1"}
+          .row.campaign
+            .col-md-6.text-center
+              %a.btn.btn-default{href: "#"}
+                Testimoni 
+                %br
+                Campaign
+              %p Masukkan kode unik hasil pembelian Veja dan kumpulkan poin sebanyak-banyaknya untuk memenangkan hadiah mingguan menarik!
+            .col-md-6.text-center
+              %a.btn.btn-default{href: "#"}
+                Racing Point 
+                %br
+                Alfamart
+              %p Masukkan kode unik hasil pembelian Veja dan kumpulkan poin sebanyak-banyaknya untuk memenangkan hadiah mingguan menarik!
+        .col-md-2.hidden-xs.hidden-sm
+          .sprites.produk-2
+    .footer
+      .container
+        .row
+          .col-xs-6.text-left
+            %p Copyright Reckitt Beckinser 2014
+          .col-xs-6
+            %ul
+              %li
+                %a{href: "#"}
+                  .sprites.twitter
+              %li
+                %a{href: "#"}
+                  .sprites.facebook
+
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
+    %script{:src => "assets/javascripts/bootstrap.js"}
+    %script{:src => "assets/javascripts/veja.js"}

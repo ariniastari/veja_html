@@ -1,0 +1,52 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+img {
+	width: 100%;
+}
+.relative {
+	position: relative;
+	z-index: 2;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.content {
+	padding-top: 20px;
+	background: url("assets/images/bg.jpg");
+	background-size: 100% 100%;
+}
+
+.btn {
+	font-size: 18px;
+	padding: 6px 40px;
+}
+
+.campaign {
+	.btn , p{
+		margin-top: 25px;
+	}
+}
+
+.footer {
+	background: #015fad;
+	ul {
+		list-style: none;
+		float: right;
+		li {
+			float: left;
+			padding: 10px;
+		}
+	}
+	p {
+		color: #fff;
+		font-size: 12px;
+		margin-top: 15px;
+	}
+}
