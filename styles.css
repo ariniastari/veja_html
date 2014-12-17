@@ -5454,6 +5454,18 @@ h5 {
   color: #2f5e8d;
   margin-top: 2px; }
 
+.modal-body {
+  padding: 0; }
+  .modal-body h4 {
+    margin-bottom: 5px; }
+  .modal-body h5 {
+    margin-bottom: 20px; }
+  .modal-body p {
+    margin-top: 20px;
+    padding: 0 20px; }
+  .modal-body .btn-danger {
+    margin-top: 20px; }
+
 .relative {
   position: relative;
   z-index: 2; }

@@ -28,6 +28,22 @@ h5 {
 	color: #2f5e8d;
 	margin-top: 2px;
 }
+.modal-body {
+	padding: 0;
+	h4 {
+		margin-bottom: 5px;
+	}
+	h5 {
+		margin-bottom: 20px;
+	}
+	p {
+		margin-top: 20px;
+		padding:0 20px;
+	}
+	.btn-danger {
+		margin-top: 20px;
+	}
+}
 .relative {
 	position: relative;
 	z-index: 2;

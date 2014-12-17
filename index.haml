@@ -54,7 +54,7 @@
             %img.youtube{src: "assets/images/vid-thumb.png", "data-video" => "http://www.youtube.com/embed/2y8APzvLFH4?autoplay=1"}
           .row.campaign
             .col-md-6.text-center
-              %a.btn.btn-default{href: "#"}
+              %a.btn.btn-default{href: "#", "data-target" => "#myModal", "data-toggle" => "modal"}
                 Testimoni 
                 %br
                 Campaign
@@ -80,6 +80,17 @@
               %li
                 %a{href: "#"}
                   .sprites.facebook
+
+    #myModal.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog", :tabindex => "-1"}
+      .modal-dialog
+        .modal-content
+          .modal-body
+            %h4.text-center Testimonial Campaign
+            %h5.text-center "Apa Jadinya Indonesia Tanpa Asisten Rumah Tangga?"
+            %img{src: "assets/images/pop-up.jpg"}
+            %p Sed accumsan vulputate libero in convallis. Nunc eget dui lacus. Quisque lobortis mi ac erat pulvinar commodo. Ut dapibus in odio vitae consectetur. 
+            .text-center
+              %a.btn.btn-danger{href: "#"} How To
 
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
     %script{:src => "assets/javascripts/bootstrap.js"}
