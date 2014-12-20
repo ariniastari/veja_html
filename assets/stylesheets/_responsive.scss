@@ -1,3 +1,19 @@
+@media(min-width: 768px){
+	.title {
+		margin-bottom: 40px;
+		h1 {
+			text-align: right;
+		}
+
+		h4 {
+			text-align: center;
+		}
+
+		h5 {
+			text-align: left;
+		}
+	}
+}
 @media(min-width: 992px) {
 	.navbar-header {
 		margin-top: 20px;

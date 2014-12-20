@@ -5536,6 +5536,8 @@ h5 {
 
 .title {
   margin-bottom: 40px; }
+  .title h1, .title h4, .title h5 {
+    text-align: center; }
 
 .gallery .col-sm-3 {
   margin-top: 20px; }
@@ -5594,6 +5596,15 @@ h5 {
   text-transform: uppercase;
   padding: 5px 10px; }
 
+@media (min-width: 768px) {
+  .title {
+    margin-bottom: 40px; }
+    .title h1 {
+      text-align: right; }
+    .title h4 {
+      text-align: center; }
+    .title h5 {
+      text-align: left; } }
 @media (min-width: 992px) {
   .navbar-header {
     margin-top: 20px; }
