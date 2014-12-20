@@ -1,4 +1,9 @@
 @media(min-width: 768px){
+	.produk {
+		h1 {
+			font-size: 30px;
+		}
+	}
 	.title {
 		margin-bottom: 40px;
 		h1 {
@@ -27,6 +32,11 @@
 }
 
 @media (min-width: 1200px) { 
+	.produk {
+		h1 {
+			font-size: 42px;
+		}
+	}
 	.navbar-header {
 		margin-left: 100px !important;
 	}

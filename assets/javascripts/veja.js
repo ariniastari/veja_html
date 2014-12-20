@@ -26,3 +26,10 @@ function readURL(input) {
 $("#imgInp").change(function(){
     readURL(this);
 });
+
+$('.image-toggler').click(function(){
+    $('.image-toggle').hide();
+    $('.image-toggler').removeClass('active');
+    $(this).addClass('active');
+    $($(this).attr('data-image-id')).show();
+});
