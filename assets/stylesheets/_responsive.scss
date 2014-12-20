@@ -1,4 +1,12 @@
 @media(min-width: 768px){
+	.navbar-nav {
+		margin-left: 10px !important;
+	}
+	.nav-tabs > li {
+		&:first-child {
+			margin-left: 35%;
+		}
+	}
 	.produk {
 		h1 {
 			font-size: 30px;

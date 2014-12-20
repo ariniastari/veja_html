@@ -3281,7 +3281,7 @@ tbody.collapse.in {
     max-width: none; }
 
 .nav-tabs {
-  border-bottom: 1px solid #ddd; }
+  border-bottom: 1px solid #ff3b5e; }
   .nav-tabs > li {
     float: left;
     margin-bottom: -1px; }
@@ -3289,13 +3289,20 @@ tbody.collapse.in {
       margin-right: 2px;
       line-height: 1.42857;
       border: 1px solid transparent;
-      border-radius: 4px 4px 0 0; }
+      border-radius: 4px 4px 0 0;
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+      background: #ff3b5e;
+      color: #fff;
+      text-align: center; }
       .nav-tabs > li > a:hover {
-        border-color: #eeeeee #eeeeee #ddd; }
+        color: #e51c20;
+        border-color: #ff3b5e; }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-      color: #555555;
+      color: #e51c20;
       background-color: #fff;
-      border: 1px solid #ddd;
+      border: 1px solid #ff3b5e;
       border-bottom-color: transparent;
       cursor: default; }
 
@@ -3342,10 +3349,10 @@ tbody.collapse.in {
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus,
   .nav-tabs.nav-justified > .active > a:focus {
-    border: 1px solid #ddd; }
+    border: 1px solid #ff3b5e; }
   @media (min-width: 768px) {
     .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #ff3b5e;
       border-radius: 4px 4px 0 0; }
     .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
     .nav-tabs-justified > .active > a:hover,
@@ -5466,6 +5473,8 @@ img {
   width: 100%; }
   img#target {
     height: 308px; }
+  img.normal {
+    width: auto; }
 
 p {
   line-height: 24px; }
@@ -5669,7 +5678,28 @@ ul.inline {
 #pouch {
   margin-top: 50px; }
 
+.nav-tabs {
+  margin-top: 40px;
+  margin-bottom: 30px; }
+
+.nav-tabs > li {
+  margin-right: 20px; }
+
+.hadiah {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .hadiah h2 {
+    color: #ff3b5e;
+    font-size: 15px;
+    font-weight: bold; }
+
 @media (min-width: 768px) {
+  .navbar-nav {
+    margin-left: 10px !important; }
+
+  .nav-tabs > li:first-child {
+    margin-left: 35%; }
+
   .produk h1 {
     font-size: 30px; }
 

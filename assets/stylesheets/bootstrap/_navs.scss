@@ -86,8 +86,15 @@
       line-height: $line-height-base;
       border: 1px solid transparent;
       border-radius: $border-radius-base $border-radius-base 0 0;
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+      background: #ff3b5e;
+      color: #fff;
+      text-align: center;
       &:hover {
-        border-color: $nav-tabs-link-hover-border-color $nav-tabs-link-hover-border-color $nav-tabs-border-color;
+        color: $nav-tabs-active-link-hover-color;
+        border-color: #ff3b5e;
       }
     }
 
