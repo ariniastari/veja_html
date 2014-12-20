@@ -1,0 +1,96 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %title Veja
+    %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:700,300", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "http://fonts.googleapis.com/css?family=Roboto:300,500", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "styles.css", :rel => "stylesheet"}
+    / HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    / WARNING: Respond.js doesn't work if you view the page via file://
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  %body
+    %nav.navbar.navbar-default{:role => "navigation"}
+      .container-fluid
+        / Brand and toggle get grouped for better mobile display
+        .navbar-header
+          %button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a{:href => "#"} 
+            .sprites.brand
+        / Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          %ul.nav.navbar-nav
+            %li.active
+              %a{:href => "#"} Hadiah
+            %li
+              %a{:href => "#"} Leaderboard
+            %li
+              %a{:href => "#"} Gallery Supermama
+            %li
+              %a{:href => "#"} Veja
+          %ul.nav.navbar-nav.navbar-right.hidden-xs.hidden-sm
+            %li
+              %a{:href => "#"}
+                .sprites.veja
+            %li
+              %a{:href => "#"} 
+                .sprites.alfamart
+        / /.navbar-collapse
+      / /.container-fluid
+    .container-fluid.content
+      .row
+        .col-md-8.col-md-offset-2.white
+          .row.title
+            .col-sm-5
+              %h1.text-right Upload
+            .col-sm-6
+              %h4.text-center Testimonial Campaign
+              %h5 "Apa Jadinya Indonesia Tanpa Asisten Rumah Tangga?"
+          .row
+            %form{:role => "form"}
+              .col-sm-5.col-sm-offset-1.text-center
+                %img#target{src: "assets/images/upload.png"}
+                %span.btn.btn-pink.btn-sm.btn-file
+                  Click here to choose your file
+                  %input#imgInp{:type => "file"}
+              .col-sm-5
+                .form-group
+                  %input#name.form-control{:placeholder => "Name", :type => "text", style: "margin-top: 10px;"}
+                .form-group
+                  %input#email.form-control{:placeholder => "E-mail", :type => "email"}
+                .form-group
+                  %input#name.form-control{:placeholder => "Nomor HP", :type => "text"}
+                .form-group
+                  %textarea.form-control{:rows => "7", :placeholder => "Alamat"}
+              .col-sm-10.col-sm-offset-1
+                .form-group
+                  %label{:for => "name"} 
+                    %h3 Tulis Caption Anda
+                  %textarea.form-control{:rows => "3"}
+              .col-sm-12.text-center
+                %button.btn.btn-danger{:type => "submit"} Upload
+    .footer
+      .container
+        .row
+          .col-xs-6.text-left
+            %p Copyright Reckitt Beckinser 2014
+          .col-xs-6
+            %ul
+              %li
+                %a{href: "#"}
+                  .sprites.twitter
+              %li
+                %a{href: "#"}
+                  .sprites.facebook
+
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
+    %script{:src => "assets/javascripts/bootstrap.js"}
+    %script{:src => "assets/javascripts/veja.js"}
